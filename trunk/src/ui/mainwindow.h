@@ -1,8 +1,10 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QtGui>
 #include "window.h"
+
+#include <QtGui>
+#include <QLCDNumber>
 
 class MainWindow : public QMainWindow
 {

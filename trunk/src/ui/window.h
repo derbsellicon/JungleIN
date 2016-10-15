@@ -9,6 +9,14 @@
 #include <QMessageBox>
 #include <QDebug>
 #include <QSound>
+#include <QDockWidget>
+
+#include <QSlider>
+#include <QVBoxLayout>
+#include <QPushButton>
+#include <QLabel>
+#include <QGroupBox>
+#include <QSpinBox>
 
 #include "../helpers/utils.h"
 #include "../helpers/scenebuilder.h"

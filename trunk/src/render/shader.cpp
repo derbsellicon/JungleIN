@@ -95,10 +95,10 @@ Shader& Shader::setupLocations(QStringList _attributes, QStringList _uniforms)
     bind();
 
     foreach(QString attribute, _attributes)
-        attributes.insert(attribute, glGetAttribLocation(uid, attribute.toAscii()));
+        attributes.insert(attribute, glGetAttribLocation(uid, attribute.toLatin1()));
 
     foreach(QString uniform, _uniforms)
-        uniforms.insert(uniform, glGetUniformLocation(uid, uniform.toAscii()));
+        uniforms.insert(uniform, glGetUniformLocation(uid, uniform.toLatin1()));
 
     return *this;
 }

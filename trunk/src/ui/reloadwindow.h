@@ -1,8 +1,9 @@
 #ifndef RELOADWINDOW_H
 #define RELOADWINDOW_H
 
-#include <QtGui>
 #include "window.h"
+#include <QtGui>
+
 #include "../helpers/scenebuilder.h"
 #include "../objects/ground.h"
 

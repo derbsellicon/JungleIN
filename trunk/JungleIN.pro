@@ -3,7 +3,7 @@
 ######################################################################
 
 CONFIG += release
-QT += core gui opengl phonon
+QT += core gui opengl multimedia widgets
 TARGET = JungleIN
 TEMPLATE = app
 

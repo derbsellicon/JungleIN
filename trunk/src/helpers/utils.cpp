@@ -19,7 +19,7 @@ char* Utils::getFileContent(QString path)
     char* content = NULL;
     long length;
 
-    fp = fopen( path.toAscii(), "rb" );
+    fp = fopen( path.toLatin1(), "rb" );
     if (fp)
     {
         fseek( fp, 0, SEEK_END );
