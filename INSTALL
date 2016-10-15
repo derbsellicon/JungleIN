@@ -1,0 +1,25 @@
+before using this project in linux, please consider installing glew headers first :
+sudo apt-get install libglew-dev
+
+if you can’t find this package and you dont know which one that provide GL/glew.h 
+use this step by step guide :
+
+1)install the apt-file utility 
+
+$ sudo apt-get install apt-file
+
+2)Then, you need to update it's database:
+
+$ apt-file update
+
+3)And, finally, search the file:
+
+$ apt-file find GL/glew.h
+emscripten: /usr/share/emscripten/system/include/GL/glew.h
+gem-dev: /usr/include/Gem/Gem/glew.h
+gem-dev: /usr/include/Gem/Gem/wglew.h
+libglew-dev: /usr/include/GL/glew.h
+libglew-dev: /usr/include/GL/wglew.h
+
+However a much friendlier way is to use the Ubuntu Packages Search website. 
+They have an option to "search the contents of packages" for a specific filename.
